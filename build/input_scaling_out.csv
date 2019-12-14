@@ -1,0 +1,141 @@
+BUILDER_NAME;INPUT_FILE;OUTPUT_FILE;GRID_SIZE;ISO_LEVEL;FIELD_ELEMENTS;NUM_THREADS;ELAPSED_TIME;TOTAL_TRIANGLES;OUTPUT_SIZE
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;1;73;7680;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;1;83;13016;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;1;122;27344;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;1;218;53520;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;1;416;92648;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;1;797;67036;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;1;1550;61952;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;2;46;7680;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;2;49;13016;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;2;62;27344;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;2;136;53520;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;2;256;92648;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;2;462;67036;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;2;823;61952;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;4;15;7680;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;4;20;13016;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;4;35;27344;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;4;61;53520;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;4;115;92648;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;4;214;67036;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;4;412;61952;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;8;8;7680;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;8;12;13016;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;8;58;27344;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;8;33;53520;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;8;62;92648;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;8;110;67036;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;8;208;61952;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;16;35;7680;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;16;69;13016;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;16;75;27344;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;16;182;53520;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;16;162;92648;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;16;186;67036;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;16;153;61952;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;1;4;7680;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;1;9;13016;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;1;24;27344;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;1;72;53520;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;1;170;92648;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;1;349;67036;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;1;675;61952;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;2;8;7680;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;2;14;13016;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;2;18;27344;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;2;69;53520;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;2;127;92648;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;2;215;67036;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;2;374;61952;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;4;4;7680;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;4;7;13016;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;4;16;27344;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;4;36;53520;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;4;67;92648;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;4;113;67036;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;4;198;61952;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;8;3;7680;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;8;4;13016;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;8;9;27342;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;8;21;53519;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;8;38;92648;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;8;61;67036;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;8;105;61952;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/010.pts;;64;0.15;10;16;30;7664;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/020.pts;;64;0.15;20;16;10;13016;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/040.pts;;64;0.15;40;16;44;27344;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/080.pts;;64;0.15;80;16;28;53512;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/160.pts;;64;0.15;160;16;65;92644;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/320.pts;;64;0.15;320;16;64;67035;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/benchmark/642.pts;;64;0.15;642;16;91;61952;

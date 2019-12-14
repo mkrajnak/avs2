@@ -24,34 +24,33 @@ unsigned TreeMeshBuilder::evaluateCube(const Vec3_t<float> &pos, size_t gridSize
 {   
     size_t totalCubesCount = gridSize*4;
     size_t step = gridSize/2;
-    unsigned totalTrianglesCount = 0, totalTrianglesCount2 = 0;
+    unsigned totalTrianglesCount1 = 0, totalTrianglesCount2 = 0;
 
     for(size_t i = 0; i < totalCubesCount; i+=step)
     {
         // 3. Compute 3D position in the grid.
-        #pragma omp task firstprivate(step) shared(totalTrianglesCount)
+        #pragma omp task firstprivate(step) shared(totalTrianglesCount1, totalTrianglesCount2)
         {
             Vec3_t<float> cubeOffset(pos.x + (i >= (gridSize*2) ? step : 0),
-                                    pos.y + ((i/gridSize) % 2 ? step : 0),
-                                    pos.z + (i % gridSize));
+                                     pos.y + ((i/gridSize) % 2 ? step : 0),
+                                     pos.z + (i % gridSize));
             
-            Vec3_t<float> middleOffset(cubeOffset.x + step/2,
-                                    cubeOffset.y + step/2,
-                                    cubeOffset.z + step/2);
+            Vec3_t<float> middleOffset((cubeOffset.x + step/2)*mGridResolution,
+                                       (cubeOffset.y + step/2)*mGridResolution,
+                                       (cubeOffset.z + step/2)*mGridResolution);
+
             if (step == 1)
             {
-                
-                totalTrianglesCount += buildCube(cubeOffset, field);
-                // std::cout << "One does not simply " << totalTrianglesCount << std::endl;
+                totalTrianglesCount1 += buildCube(cubeOffset, field);
             }
-            else if ((evaluateFieldAt(middleOffset, field) > ((sqrt(3)*step*mGridResolution)/2)+mIsoLevel))
+            else if ((evaluateFieldAt(middleOffset, field) < ((sqrt(3)*step*mGridResolution)/2)+mIsoLevel))
             {
-                totalTrianglesCount += evaluateCube(cubeOffset, step, field);                
+                totalTrianglesCount2 += evaluateCube(cubeOffset, step, field);                
             }
         }
     }
     #pragma omp taskwait 
-    return totalTrianglesCount;
+    return totalTrianglesCount1 + totalTrianglesCount2;
 }
 
 
@@ -66,8 +65,7 @@ unsigned TreeMeshBuilder::marchCubes(const ParametricScalarField &field)
     #pragma omp parallel
     {
         #pragma omp single
-        {
-           
+        {  
             triangles = evaluateCube(startOffset, mGridSize, field);
         }
     }

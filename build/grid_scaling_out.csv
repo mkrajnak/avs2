@@ -1,0 +1,29 @@
+BUILDER_NAME;INPUT_FILE;OUTPUT_FILE;GRID_SIZE;ISO_LEVEL;FIELD_ELEMENTS;NUM_THREADS;ELAPSED_TIME;TOTAL_TRIANGLES;OUTPUT_SIZE
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;8;0.15;1889;16;5;552;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;16;0.15;1889;16;40;2384;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;32;0.15;1889;16;60;9780;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;64;0.15;1889;16;391;40288;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;128;0.15;1889;16;2712;163220;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;256;0.15;1889;16;20599;655500;
+
+OpenMP Loop;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;512;0.15;1889;16;160401;2628352;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;8;0.15;1889;16;35;552;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;16;0.15;1889;16;10;2384;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;32;0.15;1889;16;77;9780;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;64;0.15;1889;16;157;40288;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;128;0.15;1889;16;977;163220;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;256;0.15;1889;16;6231;655500;
+
+Octree;/home/training/dd-19-32-75/Assignment2/scripts/../data/bun_zipper_res3.pts;;512;0.15;1889;16;45714;2628352;

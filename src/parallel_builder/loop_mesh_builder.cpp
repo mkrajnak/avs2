@@ -24,7 +24,6 @@ unsigned LoopMeshBuilder::marchCubes(const ParametricScalarField &field)
 {
     // 1. Compute total number of cubes in the grid.
     size_t totalCubesCount = mGridSize*mGridSize*mGridSize;
-    std::cout << "Total cubes: " << totalCubesCount << ", mGridSize: " << mGridSize << std::endl;
     unsigned totalTriangles = 0;
 
     // 2. Loop over each coordinate in the 3D grid.
