@@ -1,0 +1,76 @@
+
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   16
+Cube: 0, 0, 0
+Cube: 0, 0, 32
+Cube: 0, 0, 32
+Cube: 0, 0, 48
+Cube: 0, 16, 32
+Cube: 0, 16, 48
+Cube: 16, 0, 32
+Cube: 16, 0, 48
+Cube: 16, 16, 32
+Cube: 16, 16, 48
+Cube: 0, 32, 0
+Cube: 0, 32, 0
+Cube: 0, 32, 16
+Cube: 0, 48, 0
+Cube: 0, 48, 16
+Cube: 16, 32, 0
+Cube: 16, 32, 16
+Cube: 16, 48, 0
+Cube: 16, 48, 16
+Cube: 0, 32, 32
+Cube: 0, 32, 32
+Cube: 0, 32, 48
+Cube: 0, 48, 32
+Cube: 0, 48, 48
+Cube: 16, 32, 32
+Cube: 16, 32, 48
+Cube: 16, 48, 32
+Cube: 16, 48, 48
+Cube: 32, 0, 0
+Cube: 32, 0, 0
+Cube: 32, 0, 16
+Cube: 32, 16, 0
+Cube: 32, 16, 16
+Cube: 48, 0, 0
+Cube: 48, 0, 16
+Cube: 48, 16, 0
+Cube: 48, 16, 16
+Cube: 32, 0, 32
+Cube: 32, 0, 32
+Cube: 32, 0, 48
+Cube: 32, 16, 32
+Cube: 32, 16, 48
+Cube: 48, 0, 32
+Cube: 48, 0, 48
+Cube: 48, 16, 32
+Cube: 48, 16, 48
+Cube: 32, 32, 0
+Cube: 32, 32, 0
+Cube: 32, 32, 16
+Cube: 32, 48, 0
+Cube: 32, 48, 16
+Cube: 48, 32, 0
+Cube: 48, 32, 16
+Cube: 48, 48, 0
+Cube: 48, 48, 16
+Cube: 32, 32, 32
+Cube: 32, 32, 32
+Cube: 32, 32, 48
+Cube: 32, 48, 32
+Cube: 32, 48, 48
+Cube: 48, 32, 32
+Cube: 48, 32, 48
+Cube: 48, 48, 32
+Cube: 48, 48, 48
+Elapsed Time:        9261 ms
+Mesh Triangle Count: 33974
